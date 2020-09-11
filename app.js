@@ -38,8 +38,3 @@ app.use(function(err, req, res, next) {
 //just so we know the server is running
 console.log('Server listening on: http://localhost:3000');
 module.exports = app;
-
-
-
-//just so we know the server is running
-console.log('Server listening on: http://localhost:3000');
