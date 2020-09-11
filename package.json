@@ -1,0 +1,17 @@
+{
+  "name": "node-cheerio-web-page-scraper",
+  "version": "0.0.1",
+  "description": "Provides metadata and image info for any web page as JSON",
+  "main": "app.js",
+  "author": "Salman lodi",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "body-parser": "^1.15.2",
+    "cheerio": "latest",
+    "express": "latest",
+    "memory-cache": "^0.2.0"
+  }
+}

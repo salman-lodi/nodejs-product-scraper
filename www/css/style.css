@@ -1,0 +1,118 @@
+body{
+background-color: #ededed;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-weight: 300;
+}
+
+h1, h2, strong{
+  font-weight: bold;
+}
+
+h1{
+  color: #333;
+  font-size: 28px;
+}
+
+h2{
+  color: #0066CC;
+  font-size: 28px;
+}
+
+ul, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.logo{
+display: block;
+    width: 20%;
+    margin: 5px auto 15px;
+    padding: 2%;
+    background-color: #ededed;
+}
+
+header h1, header h2{
+  margin: 20px 0;
+}
+
+header h1{
+  font-size: 38px
+}
+
+header h2{
+  font-size: 24px
+}
+
+
+header{
+  padding: 2%;
+  background-color: #ACF3FD;
+}
+
+footer{
+  margin: 20px auto;
+  width: 90%;
+  padding: 2%;
+  text-align: center;
+  background-color: #ACF3FD;
+}
+
+#mainContent{
+  margin: 50px 0;
+  padding: 20px;
+}
+
+#urlText{
+  padding: 10px;
+  font-size: 24px;
+  width: 50%;
+}
+
+#submit{
+  padding: 10px;
+  font-size: 24px;
+  background-color: #ccc;
+  color: #333;
+	-moz-transition: background-color 2s ease-out;
+	-webkit-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+#submit.error{
+  background-color: #800000;
+  color: #fff;
+}
+
+#submit:hover{
+  cursor:pointer;
+}
+
+#data-container{
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #ededed;
+}
+
+#data-container:empty{
+  display: none;
+}
+
+#ajax-loader-container{
+  display: none;
+  margin: 0 auto;
+  width: 120px;
+}
+
+#ajax-loader-container img{
+  width: 100%;
+}
