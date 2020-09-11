@@ -1,7 +1,7 @@
 [![Node.Js  Logo](https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png)](https://nodejs.org/)
 
 
-# node-
+# node-js-product-scraper
 
 ## Provides metadata and image info for any web page as JSON 
 
